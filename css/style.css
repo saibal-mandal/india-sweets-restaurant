@@ -1718,4 +1718,7 @@ header .topHeader {
 .galleryIcon {
 	width: 100%;
 }
+.aboutus .title h2 span, .massage .title h2 span {
+    font-size: 36px;
+}
 }
