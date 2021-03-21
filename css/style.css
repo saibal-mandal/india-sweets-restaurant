@@ -1686,6 +1686,14 @@ header .logo-box {
 .leftchild {
 	padding: 50px 53px 50px 47px;
 }
+.leftchild {
+    border-right: 0;
+    border-bottom: 2px solid #ff9000;
+}
+.rightchild {
+    border-left: 0;
+    border-top: 2px solid #ff9000;
+}
 }
 @media (max-width: 425px) {
 .navbar-brand {
