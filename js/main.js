@@ -19,24 +19,24 @@ $('.scrollup').click(function(){
 	
 // owl-carousel banner 
 $('#owldemo1').owlCarousel({
-        loop: true,
-        nav: false,
-        autoplay: true,
-        autoplayTimeout: 4500,
-        smartSpeed: 1950,
-        dots: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
+    loop: true,
+    nav: false,
+    autoplay: true,
+    autoplayTimeout: 7000,
+    smartSpeed: 3000,
+    dots: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
         }
-    });
+    }
+});
 
 //testimonials
 $('#owldemo2').owlCarousel({
