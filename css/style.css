@@ -82,7 +82,7 @@ img {
 /*=====================scroll to top=====================*/
 .scrollup {
     position: fixed;
-    left: 50%;
+    right: 2%;
     bottom: 1%;
     background: rgb(255,140,0);
 	background: linear-gradient(0deg, rgba(255,140,0,1) 0%, rgba(255,165,0,1) 100%);
@@ -165,7 +165,7 @@ header .logo-box {
     left: 16px;
     top: -50px;
     z-index: 999;
-    width: 122px;
+    width: 138px;
     left: 0;
 }
 header .bottomHeader {
@@ -950,16 +950,10 @@ header .bottomHeader .mainnav {
  color: #fff !important;
 }*/
 .leftchild {
-	background: url(../images/tablemap.jpg) no-repeat center center;
-	background-size: cover;
-	min-height: 300px;
-	border-right: 1px solid #ff9000;
+	border-right: 3px solid #ff9000;
 }
 .rightchild {
-	background: url(../images/tablemap.jpg) no-repeat center center;
-	background-size: cover;
-	min-height: 300px;
-	border-left: 1px solid #ff9000;
+	border-left: 3px solid #ff9000;
 }
 .custombtntwo {
     background: rgb(167,0,8);
@@ -1087,7 +1081,7 @@ header .bottomHeader .mainnav {
 	min-height: 455px;
 }
 .contactAddress {
-    padding: 45px 60px;
+    padding: 65px 60px;
     background: #191919;
     color: #fff;
     border-bottom-left-radius: 20px;
@@ -1725,8 +1719,5 @@ header .topHeader {
 }	
 .galleryIcon {
 	width: 100%;
-}
-.aboutus .title h2 span, .massage .title h2 span {
-    font-size: 33px;
 }
 }
