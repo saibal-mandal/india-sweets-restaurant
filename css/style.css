@@ -107,12 +107,14 @@ img {
 }
 /*=====================header=====================*/
 header {
-	color: #fff;
-	position: relative;
-	border-bottom: 3px solid #fff;
+    color: #fff;
+    position: relative;
+    background: url(../images/headerbg.jpg) no-repeat top left;
+    width: 100%;
+    height: 104px;
+	overflow: hidden;
 }
 header .topHeader {
-	background: #ff8c00;
 	padding: 10px 0;
 }
 header .topHeader ul li i.clock {
@@ -171,8 +173,6 @@ header .logo-box {
 header .bottomHeader {
     background: #cb161f;
     padding: 5px 0;
-    background: rgb(255,140,0);
-background: linear-gradient(0deg, rgba(255,140,0,1) 0%, rgba(255,165,0,1) 100%);
 }
 header .bottomHeader .mainnav {
 	color: #fff;
