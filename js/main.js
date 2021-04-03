@@ -19,34 +19,12 @@ $('.scrollup').click(function(){
 	
 // owl-carousel banner 
 $('#owldemo1').owlCarousel({
-    loop: true,
-    nav: false,
-    autoplay: true,
-    autoplayTimeout: 7000,
-    smartSpeed: 3000,
-    dots: true,
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 1
-        },
-        1000: {
-            items: 1
-        }
-    }
-});
-
-//testimonials
-$('#owldemo2').owlCarousel({
         loop: true,
         nav: false,
-        margin:20,
         autoplay: true,
-        autoplayTimeout: 4500,
-        smartSpeed: 1950,
-        dots: false,
+        autoplayTimeout: 7000,
+        smartSpeed: 3000,
+        dots: true,
         responsive: {
             0: {
                 items: 1
@@ -55,13 +33,15 @@ $('#owldemo2').owlCarousel({
                 items: 1
             },
             1000: {
-                items: 2
+                items: 1
             }
         }
     });
+
+
 	
 
-////testimonials
+////our menu
 $('#owldemo3').owlCarousel({
         loop: true,
         nav: false,
@@ -82,26 +62,7 @@ $('#owldemo3').owlCarousel({
             }
         }
     });
-$('#owldemo2').owlCarousel({
-        loop: true,
-        nav: false,
-        margin:20,
-        autoplay: true,
-        autoplayTimeout: 4500,
-        smartSpeed: 1950,
-        dots: false,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 2
-            }
-        }
-    });	
+
 
 // sticky header
  $(window).scroll(function(){
@@ -118,61 +79,7 @@ $('#owldemo2').owlCarousel({
 });
 
 
-$(window).load(function(){
-	var selectedTab = window.location.hash;
-	$('a[href="'+selectedTab+'"]').trigger('click');
-	setTimeout(function(){
-		$("html, body").stop().animate({scrollTop: ($('#tab1').offset().top - ($('.mainnav').height() * 2.7)) });
-	}, 500);
-	
-	var selectedTab = window.location.hash;
-	$('a[href="'+selectedTab+'"]').trigger('click');
-	setTimeout(function(){
-		$("html, body").stop().animate({scrollTop: ($('#tab5').offset().top - ($('.mainnav').height() * 2.7)) });
-	}, 500);
-	
-	var selectedTab = window.location.hash;
-	$('a[href="'+selectedTab+'"]').trigger('click');
-	setTimeout(function(){
-		$("html, body").stop().animate({scrollTop: ($('#tab9').offset().top - ($('.mainnav').height() * 2.7)) });
-	}, 500);
-	
-	var selectedTab = window.location.hash;
-	$('a[href="'+selectedTab+'"]').trigger('click');
-	setTimeout(function(){
-		$("html, body").stop().animate({scrollTop: ($('#tab3').offset().top - ($('.mainnav').height() * 2.7)) });
-	}, 500);	
-		
-});
 
-
-    
-    
-// light box
-        $(document).ready(function() {
-            $('.fancybox').fancybox();
-
-            $('.fancybox-buttons').fancybox({
-                openEffect  : 'none',
-                closeEffect : 'none',
-
-                prevEffect : 'none',
-                nextEffect : 'none',
-
-                closeBtn  : false,
-
-                helpers : {
-                    title : {
-                        type : 'inside'
-                    },
-                    buttons : {}
-                },
-
-                afterLoad : function() {
-                    this.title = 'India Sweets Restaurant ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
-                }
-            });
-      });  
 	  
 	  
 
