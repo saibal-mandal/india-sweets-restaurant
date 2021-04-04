@@ -426,6 +426,7 @@ header .bottomHeader .mainnav {
 .divider-img .text p {
     color: #ffffff;
     font-size: 42px;
+	line-height: 50px;;
 }
 /*=====================our menu=====================*/
 .ourmenu {
