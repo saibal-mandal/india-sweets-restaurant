@@ -1465,6 +1465,9 @@ header .logo-box {
 	border-top-left-radius: 0px;
 	border-top: 5px solid #7f7f7f;
 }
+.divider-img {
+    min-height: 315px;
+}
 }
 @media (max-width: 575px) {
 .navbar-nav .nav-link {
