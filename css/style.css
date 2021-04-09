@@ -428,6 +428,10 @@ header .bottomHeader .mainnav {
     font-size: 42px;
 	line-height: 50px;;
 }
+.divider-img .text h3{
+    margin: 25px 0;
+    color: #ff9b00;
+}
 /*=====================our menu=====================*/
 .ourmenu {
 	position: relative;
